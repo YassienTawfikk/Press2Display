@@ -6,7 +6,7 @@
 
 > Designed for educational and practical embedded systems training, this project highlights modular hardware interfacing and low-level software design under timing and hardware constraints.
 
-![Proteus Simulation](https://github.com/user-attachments/assets/87a9a6e1-b687-4b3e-b07a-e8e645abeb01)
+![Proteus Simulation](https://github.com/user-attachments/assets/11880891-057b-4c83-ab19-ee1b710db60f)
 
 *Proteus schematic showing STM32F401VE connected to keypad and 2-digit 7-segment display.*
 
@@ -25,7 +25,7 @@
 
 ### Demo Preview
 
-https://github.com/user-attachments/assets/638e973a-b29c-4909-9bcb-e69c5cb83090
+https://github.com/user-attachments/assets/601500b2-6f1f-447f-81b9-8e272e501466
 
 ---
 
