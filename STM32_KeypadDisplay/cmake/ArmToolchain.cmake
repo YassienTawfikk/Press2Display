@@ -3,7 +3,7 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR arm)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
-set(ARM_TOOLCHAIN_DIR "Your Path Here")
+set(ARM_TOOLCHAIN_DIR "<your-arm-toolchain-path>")
 
 if(MINGW OR CYGWIN OR WIN32)
     set(Extension .exe)
