@@ -159,7 +159,8 @@
 
 #endif
 
-#include "cmsis_compiler.h"
+
+#include "cmsis_compiler.h"               /* CMSIS compiler specific defines */
 
 
 #ifdef __cplusplus

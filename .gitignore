@@ -2,4 +2,7 @@
 .vscode/
 cmake-build-*/
 build*/
+
 *.zip
+
+cmake-build-debug/
