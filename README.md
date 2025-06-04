@@ -60,27 +60,30 @@ https://github.com/user-attachments/assets/5651b9b6-9adb-42f5-9cc9-276a65331b49
 
 ### Project Structure
 
-```plaintext
-Simulation/
-├── STM32_KeypadDisplay_04.pdsprj     # Proteus simulation
-
-STM32_KeypadDisplay/
-├── cmake/                            # CMake toolchain files
-├── Gpio/                             # GPIO driver
-├── include/                          # Global headers
-├── Keypad/                           # Keypad driver
-├── Lib/
-├── Rcc/                              # Clock configuration
-├── SevenSegment/                     # Display driver
-├── src/                              # main.c and app logic
+```
+Press2Display/
+├── cmake/                                 # CMake build system files
+│   ├── ArmToolchain.cmake
+│   ├── Device.cmake
+│   ├── IncludeList.cmake
+│   └── SourceList.cmake
+│
+├── Proteus/
+│   └── InterruptHandler.pdsprj            # Proteus simulation project
+│
+├── Gpio/                                  # GPIO abstraction layer
+├── include/                               # Header includes
+├── Keypad/                                # (unused)
+├── Lib/                                   # Utility code
+├── Rcc/                                   # RCC driver for clock config
+├── SevenSegment/                          # Display driver
+├── src/
+│   └── main.c                             # Main logic and ISRs
 ├── STM32-base/
 ├── STM32-base-STM32Cube/
 ├── CMakeLists.txt
 ├── .gitignore
-├── README.md
-
-.gitignore
-README.md
+└── README.md
 ```
 
 ---
