@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.30)
 include(cmake/ArmToolchain.cmake)
 
-project(STM32_KeypadDisplay_04 C)
+project(Press2Display C)
 
 set(CMAKE_C_STANDARD                11)
 set(CMAKE_C_STANDARD_REQUIRED       ON)
 set(CMAKE_C_EXTENSIONS              ON)
 enable_language(ASM)
 
-set(PROJECT_PATH                         ${CMAKE_CURRENT_SOURCE_DIR})
+set(PROJECT_PATH STM32_KeypadDisplay)
 include(cmake/Device.cmake)
 include(cmake/SourceList.cmake)
 include(cmake/IncludeList.cmake)
