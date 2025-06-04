@@ -8,6 +8,7 @@ set(CMAKE_C_STANDARD_REQUIRED       ON)
 set(CMAKE_C_EXTENSIONS              ON)
 enable_language(ASM)
 
+
 set(PROJECT_PATH                         ${CMAKE_CURRENT_SOURCE_DIR})
 include(cmake/Device.cmake)
 include(cmake/SourceList.cmake)
